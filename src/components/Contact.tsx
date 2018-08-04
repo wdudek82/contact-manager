@@ -10,11 +10,11 @@ const Contact = (props: IProps) => {
   const { name, email, phone } = props;
 
   return (
-    <div>
+    <div className="card card-body mb-3">
       <h4>{name}</h4>
-      <ul>
-        <li>{email}</li>
-        <li>{phone}</li>
+      <ul className="list-group">
+        <li className="list-group-item">{email}</li>
+        <li className="list-group-item">{phone}</li>
       </ul>
     </div>
   );

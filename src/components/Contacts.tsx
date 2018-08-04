@@ -1,11 +1,15 @@
 import * as React from 'react';
 import Contact from './Contact';
 
-// interface IProps {}
+import styledComponents from 'styled-components';
+
+const Wrapper = styledComponents.div.attrs({
+  className: 'container',
+})``;
 
 const Contacts = (props: any) => {
   return (
-    <div>
+    <Wrapper>
       <Contact
         name="Jaś Fasola"
         email="jfasola@example.com"
@@ -16,7 +20,7 @@ const Contacts = (props: any) => {
         email="ksmith@example.com"
         phone="555-555-5555"
       />
-    </div>
+    </Wrapper>
   );
 };
 

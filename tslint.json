@@ -1,0 +1,27 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-config-airbnb"
+  ],
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
+  },
+  "jsRules": {},
+  "rulesDirectory": [],
+  "rules": {
+    // "quotemark": [true, "single"],
+    // "no-console": [true, "log", "warn"],
+    "no-consecutive-blank-lines": [true, 2],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ]
+    // "callable-types": false,
+    // "arrow-parens": [true, "ban-single-arg-parens"]
+  }
+}

@@ -33,8 +33,8 @@ class Contacts extends React.Component<{}, {}> {
   };
 
   public renderContacts() {
-    return this.state.contacts.map(({ id, name, email, phone }) => (
-      <Contact key={id} name={name} email={email} phone={phone} />
+    return this.state.contacts.map((contact) => (
+      <Contact key={contact.id} contact={contact} />
     ));
   }
 

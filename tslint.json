@@ -9,7 +9,9 @@
   "linterOptions": {
     "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
   },
-  "jsRules": {},
+  "jsRules": {
+    "object-literal-sort-keys": false
+  },
   "rulesDirectory": [],
   "rules": {
     // "quotemark": [true, "single"],
@@ -20,7 +22,8 @@
       "ban-keywords",
       "check-format",
       "allow-pascal-case"
-    ]
+    ],
+    // "object-literal-sort-keys": false
     // "callable-types": false,
     // "arrow-parens": [true, "ban-single-arg-parens"]
   }

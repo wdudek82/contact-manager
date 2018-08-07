@@ -1,10 +1,10 @@
 import * as React from 'react';
 import Contact from './Contact';
 
-import styledComponents from 'styled-components';
+import styled from 'styled-components';
 
-// ------- styles
-const Wrapper = styledComponents.div.attrs({
+// styles
+const Wrapper = styled.div.attrs({
   className: 'container',
 })``;
 

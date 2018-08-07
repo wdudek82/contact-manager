@@ -12,11 +12,12 @@
   "jsRules": {
     "object-literal-sort-keys": false,
     "ter-arrow-parens": [true, "always"],
-    "arrow-parens": [true, "always"]
+    "arrow-parens": [true, "always"],
+    "import-name": [true, { "styledComponents": "styled" }]
   },
   "rulesDirectory": [],
   "rules": {
-    "no-console": [true, "log", "warn"],
+    "no-console": [false, "log", "warn"],
     "no-consecutive-blank-lines": [true, 2],
     "variable-name": [
       true,
@@ -26,6 +27,7 @@
     ],
     "object-literal-sort-keys": false,
     "ter-arrow-parens": [true, "always"],
-    "arrow-parens": [true, "always"]
+    "arrow-parens": [true, "always"],
+    "import-name": [true, { "styledComponents": "styled" }]
   }
 }
